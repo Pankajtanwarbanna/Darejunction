@@ -32,10 +32,16 @@ body {
     }
 }
 @media (min-width: 768px) {
-    .pt-md-11, .py-md-11 {
+    .pt-md-11 {
         padding-top: 6rem!important;
     }
 }
+@media (min-width: 768px) {
+    .pb-md-11 {
+        padding-bottom: 6rem !important;
+    }
+}
+
 .ml-auto {
     margin-left: auto!important;
 }
@@ -63,3 +69,17 @@ body {
 .shadow {
     box-shadow: 0 .5rem 1.5rem rgba(22,28,45,.1)!important;
 }
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.bg-gradient-light {
+    background-image: linear-gradient(180deg,#f9fbfd 0,#fff);
+}
+
+.card {
+    border: 2px solid blue;
+}
+
